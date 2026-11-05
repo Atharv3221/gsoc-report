@@ -35,7 +35,7 @@ A false negative means code that breaks the Google Java Style Guide but still pa
 * [#17715](https://github.com/checkstyle/checkstyle/issues/17715) created and added `WhitespaceBeforeEmptyBody` for empty bodies, which the `allowEmptyXxxxxx` properties of `WhitespaceAround` skipped.
 * [#18420](https://github.com/checkstyle/checkstyle/issues/18420) created the dedicated `GoogleMethodName` Check, and [#17841](https://github.com/checkstyle/checkstyle/issues/17841) added it to google_checks.xml.
 * [#17695](https://github.com/checkstyle/checkstyle/issues/17695) created `MultilineCommentLeadingAsteriskPresence` for `*` on subsequent lines of `/* ... */` comments, and [#20995](https://github.com/checkstyle/checkstyle/issues/20995) activated it with an xpath suppression for native method bodies.
-* [#7541](https://github.com/checkstyle/checkstyle/issues/7541) adds `GoogleRightCurly` to replace the `RightCurly` instance in google_checks.xml and remove the inlined suppression (in review).
+* [#7541](https://github.com/checkstyle/checkstyle/issues/7541) adds `GoogleRightCurly` to replace the `RightCurly` instance in google_checks.xml and remove the inlined suppression.
 * [#19968](https://github.com/checkstyle/checkstyle/issues/19968) created `AvoidModuleImport` for the `import module M;` form, which [#21445](https://github.com/checkstyle/checkstyle/issues/21445) then added to the config.
 
 **3. Updating the Coverage Page and Adding New Rules**
