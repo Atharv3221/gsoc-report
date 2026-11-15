@@ -55,7 +55,7 @@ Many defects that surface as style guide violations live in the modules or their
 
 ### Current Status and Future Work
 
-All planned work has been merged except [#7541](https://github.com/checkstyle/checkstyle/issues/7541) (`GoogleRightCurly`), which is in review. The [coverage page](https://checkstyle.org/google-style.html) now reflects the [latest Google Java Style Guide revision](https://github.com/google/styleguide/commit/b5c8ecae344b5697210b9aa9a3ce08b608cea239), including the new rules and missing examples added this summer.
+All planned work has been merged. The [coverage page](https://checkstyle.org/google-style.html) now reflects the [latest Google Java Style Guide revision](https://github.com/google/styleguide/commit/b5c8ecae344b5697210b9aa9a3ce08b608cea239), including the new rules and missing examples added this summer.
 
 Several areas remain open for future work:
 
